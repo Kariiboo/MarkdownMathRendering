@@ -6,9 +6,6 @@ It support TeX rendering only. No diagrams. It can be used easily when editing f
 It generate a tex folder that contains all generated files.
 The TeXify GitHub App works only at git push. Once the markdown is generated, it can even be uninstalled from the repository.
 
-TeXify GitHub App is installed on this GitHub repository.
-The `TeXify_example.tex.md` page of this repository is then automatically processed on git push to generate [this page](TeXify_example.md)
-
 See also: https://github.com/kamil-kielczewski/fractals
 
 ## Math

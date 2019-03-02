@@ -14,6 +14,9 @@ The `MPE_example.md` page has been saved as markdown [here](MPE_example_.md)
 TeXify is a GitHub App that looks in git pushes for files with extension *.tex.md and renders it's TeX expressions as SVG images.
 It support TeX rendering only. No diagrams. It can be used easily when editing files online on github web site.
 
+TeXify GitHub App is installed on this GitHub repository.
+The `TeXify_example.tex.md` page of this repository is then automatically processed on git push to generate [this page](TeXify_example.md)
+
 ## Bibliography
 
 - Markdown Preview Enhanced: https://shd101wyy.github.io/markdown-preview-enhanced
