@@ -29,7 +29,7 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
   
 
-![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.3918691339553926)  
+![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.18158348911078548)  
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
   
 ## Export in Github Flavor Markdown (GFM)
