@@ -22,3 +22,4 @@ Expression within `$$...$$` will be rendered in blocks.
   
 $$cos^2(\alpha) + sin^2(\alpha) = 1$$
 $$tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$$
+$$cos(a + b) = cos(a) cos(b) - sin(a)sin(b)$$
