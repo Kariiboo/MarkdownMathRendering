@@ -29,7 +29,7 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
   
 
-![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.18158348911078548)  
+![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.09621263768608856)  
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
   
 ## Export in Github Flavor Markdown (GFM)
@@ -41,6 +41,6 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown
 Open the MPE preview: Commande Palette (<kbd>Ctrl-Shift-P</kbd>) > Markdown Preview Enhanced: Open Preview (<kbd>Ctrl + K V</kbd>). Then, on the preview, <kbd>right-click</kbd>, `Save as markdown`
   
 Notes: 
-- Math expressions are rendered as images using the latex.codecogs.com online service: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`
+- Math expressions are rendered as images using the latex.codecogs.com online service, like this: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`
 - Diagrams are saved as png images to `imageFolderPath` (defaults to `/assets`). The exported image filename can be controlled by declaring {filename="your_file_name.png"}.
   
