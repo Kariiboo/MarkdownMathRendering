@@ -9,8 +9,8 @@ Math expressions have to be rendered as images before being included in markdown
 
 The `MPE_example.md` page has been saved as markdown [here](MPE_example_.md)
 
-Pro: Math + diagrams + code chunk support.
-Cons: Math expression rendering poor quality
+* Pro: Math + diagrams + code chunk support.
+* Cons: Math expression rendering poor quality
 
 ## Online rendering solution
 
@@ -20,8 +20,8 @@ It support TeX rendering only. No diagrams. It can be used easily when editing f
 TeXify GitHub App is installed on this GitHub repository.
 The `TeXify_example.tex.md` page of this repository is then automatically processed on git push to generate [this page](TeXify_example.md)
 
-Pro: Math expression rendering good quality.
-Cons: Only Math support, no diagrams, no code chunk support.
+* Pro: Math expression rendering good quality.
+* Cons: Only Math support, no diagrams, no code chunk support.
 
 ## Bibliography
 
