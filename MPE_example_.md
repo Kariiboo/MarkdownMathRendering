@@ -1,19 +1,20 @@
 # Markdown Preview Enhanced example
   
   
-[Visual Studio Code](https://code.visualstudio.com ) and [Atom](https://atom.io ) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced ) extension that allows to render math & diagrams (UML, ...) inside the IDE and has export features, including HTML, PDF and markdown.
+[Visual Studio Code](https://code.visualstudio.com ) and [Atom](https://atom.io ) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced ) extension that allows to render math & diagrams (UML, ...) inside the IDE and export as Github Flavor Markdown.
   
 ## Math
   
   
 Markdown Preview Enhanced uses KaTeX or MathJax to render math expressions. 
   
-Expression within `<img src="https://latex.codecogs.com/gif.latex?..."/>` or `<img src="https://latex.codecogs.com/gif.latex?..."/>` will be rendered inline.
-Expression within `<p align="center"><img src="https://latex.codecogs.com/gif.latex?..."/></p>  
-` or `<p align="center"><img src="https://latex.codecogs.com/gif.latex?..."/></p>  
-` or ` ```math ` will be rendered in block.
+Expression within \$...\$ or \<img src="https://latex.codecogs.com/gif.latex?...&#x5C;"/> will be rendered inline.
   
-See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
+* <img src="https://latex.codecogs.com/gif.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201"/>
+* <img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>
+  
+Expression within \$\$...\$\$ or \<p align="center"><img src="https://latex.codecogs.com/gif.latex?...&#x5C;"/></p>  
+ or \`\`\`math will be rendered in blocks.
   
 ```math
 cos^2(\alpha) + sin^2(\alpha) = 1
@@ -22,13 +23,16 @@ cos^2(\alpha) + sin^2(\alpha) = 1
 <p align="center"><img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/></p>  
   
   
+See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
+  
+  
 ## Diagrams
   
   
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
   
 
-![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.34705612409859343)  
+![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.371200119293311)  
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
   
 ## Export in Github Flavor Markdown (GFM)
