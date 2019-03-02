@@ -10,12 +10,12 @@ See also: https://github.com/kamil-kielczewski/fractals
 
 ## Math
 
-Expression within `$...$` or will be rendered inline.
+Expression within \$...\$ or will be rendered inline.
 
 * $cos^2(\alpha) + sin^2(\alpha) = 1$
 * $tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$
 
-Expression within `$$...$$` will be rendered in blocks.
+Expression within \$\$...\$\$ will be rendered in blocks.
   
 $$cos^2(\alpha) + sin^2(\alpha) = 1$$
 $$tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$$
