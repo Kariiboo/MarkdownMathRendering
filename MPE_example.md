@@ -6,17 +6,14 @@
 
 Markdown Preview Enhanced uses KaTeX or MathJax to render math expressions. 
 
-Expression within \$...\$ or \\(...\\) will be rendered inline.
+Expression within \$...\$ will be rendered inline.
 
 * $cos^2(\alpha) + sin^2(\alpha) = 1$
 * $tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$
 
-Expression within \$\$...\$\$ or \\[...\\] or \`\`\`math will be rendered in blocks.
+Expression within \$\$...\$\$ will be rendered in blocks.
 
-```math
-cos^2(\alpha) + sin^2(\alpha) = 1
-```
-
+$$cos^2(\alpha) + sin^2(\alpha) = 1$$
 $$tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$$
 
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/math

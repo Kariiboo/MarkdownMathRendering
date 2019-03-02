@@ -8,17 +8,14 @@
   
 Markdown Preview Enhanced uses KaTeX or MathJax to render math expressions. 
   
-Expression within \$...\$ or \<img src="https://latex.codecogs.com/gif.latex?...&#x5C;"/> will be rendered inline.
+Expression within \$...\$ will be rendered inline.
   
 * <img src="https://latex.codecogs.com/gif.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201"/>
 * <img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>
   
-Expression within \$\$...\$\$ or \<p align="center"><img src="https://latex.codecogs.com/gif.latex?...&#x5C;"/></p>  
- or \`\`\`math will be rendered in blocks.
+Expression within \$\$...\$\$ will be rendered in blocks.
   
-```math
-cos^2(\alpha) + sin^2(\alpha) = 1
-```
+<p align="center"><img src="https://latex.codecogs.com/gif.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201"/></p>  
   
 <p align="center"><img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/></p>  
   
@@ -32,7 +29,7 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
   
 
-![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.371200119293311)  
+![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.3918691339553926)  
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
   
 ## Export in Github Flavor Markdown (GFM)
