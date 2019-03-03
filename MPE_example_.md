@@ -1,12 +1,14 @@
 # Markdown Preview Enhanced example
   
   
-[Visual Studio Code](https://code.visualstudio.com ) and [Atom](https://atom.io ) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced ) extension that allows to render math & diagrams (UML, ...) inside the IDE and export as Github Flavor Markdown.
+[Visual Studio Code](https://code.visualstudio.com ) and [Atom](https://atom.io ) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced ) extension that allows to render math & diagrams (UML, ...) inside the IDE and export as GitHub Flavor Markdown (GFM).
   
 ## Math
   
   
-Markdown Preview Enhanced uses KaTeX or MathJax to render math expressions. 
+Markdown Preview Enhanced uses
+* KaTeX or MathJax to render math expressions for embedded Markdown preview.
+* https://latex.codecogs.com/gif.latex?... on line service for `Save as markdown` (export to GFM)
   
 Expression within \$...\$ will be rendered inline.
   
@@ -29,10 +31,10 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
   
 
-![](assets/1fdaa2e0d2a717311dc056558dc0fed10.png?0.09621263768608856)  
+![](assets/b0076a58206ea9e97ffaf61a14419cd90.png?0.21361796048580994)  
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
   
-## Export in Github Flavor Markdown (GFM)
+## Export in GitHub Flavor Markdown (GFM)
   
   
 Markdown Preview Enhanced supports compilation into GitHub Flavored Markdown so that the exported markdown file will include all graphs (as png images), code chunks (hide and only include results), math typesettings (show as image) etc and can be published on GitHub.
@@ -41,6 +43,6 @@ See https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown
 Open the MPE preview: Commande Palette (<kbd>Ctrl-Shift-P</kbd>) > Markdown Preview Enhanced: Open Preview (<kbd>Ctrl + K V</kbd>). Then, on the preview, <kbd>right-click</kbd>, `Save as markdown`
   
 Notes: 
-- Math expressions are rendered as images using the latex.codecogs.com online service, like this: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`
+- Math expressions are rendered as GIF images using the latex.codecogs.com online service, like this: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`
 - Diagrams are saved as png images to `imageFolderPath` (defaults to `/assets`). The exported image filename can be controlled by declaring {filename="your_file_name.png"}.
   
