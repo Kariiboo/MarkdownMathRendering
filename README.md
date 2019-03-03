@@ -27,3 +27,4 @@ The `TeXify_example.tex.md` page in this repository is then automatically proces
 
 - Markdown Preview Enhanced: https://shd101wyy.github.io/markdown-preview-enhanced
 - "Latex rendering in `README.md` on Github" question on stackoverflow :  https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github and this answer https://stackoverflow.com/questions/35498525/latex-rendering-in-readme-md-on-github/53981118#53981118
+- TeXify: https://github.com/apps/texify
