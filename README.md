@@ -10,7 +10,7 @@ Math expressions have to be rendered as images before being included in markdown
 The `MPE_example.md` page has been saved as markdown [here](MPE_example_.md)
 
 * Pro: Math + diagrams + code chunk support.
-* Cons: Math expression rendering poor quality once saved as markdown (due to the use of https://latex.codecogs.com/)
+* Cons: Math expression rendering poor quality once saved as markdown (due to the use of GIT images https://latex.codecogs.com/gif.latex?...). [Issue opened](https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/189).
 
 ## Online rendering solution
 
