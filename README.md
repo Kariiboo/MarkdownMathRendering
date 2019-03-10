@@ -21,7 +21,7 @@ TeXify GitHub App is installed on this GitHub repository.
 The `TeXify_example.tex.md` page in this repository is then automatically processed on git pushes to generate [this page](TeXify_example.md)
 
 * Pro: Math expression rendering is of good quality.
-* Cons: Only Math support, no diagrams, no code chunk support.
+* Cons: Only Math support, no diagram, no code chunk support.
 
 ## Bibliography
 
