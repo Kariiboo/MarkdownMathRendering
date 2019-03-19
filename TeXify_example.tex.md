@@ -8,7 +8,7 @@ The TeXify GitHub App works only at git push. Once the markdown is generated, it
 
 See also: https://github.com/kamil-kielczewski/fractals
 
-## Math
+## Math examples
 
 Expression within \$...\$ or will be rendered inline.
 

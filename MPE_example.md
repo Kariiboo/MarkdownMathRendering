@@ -1,12 +1,12 @@
 # Markdown Preview Enhanced example
 
-[Visual Studio Code](https://code.visualstudio.com) and [Atom](https://atom.io) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced) extension that allows to render math & diagrams (UML, ...) inside the IDE and export as GitHub Flavor Markdown (GFM).
+[Visual Studio Code](https://code.visualstudio.com) (and [Atom](https://atom.io)) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced) (MPE) extension that allows to render math expressions & diagrams (UML, ...) inside the IDE and to export as GitHub Flavor Markdown (GFM).
 
-## Math
+## Math examples
 
-Markdown Preview Enhanced uses
-* KaTeX or MathJax to render math expressions for embedded Markdown preview.
-* https://latex.codecogs.com/gif.latex?... on line service for `Save as markdown` (export to GFM)
+Markdown Preview Enhanced render math expressions using :
+* KaTeX or MathJax in embedded Markdown preview.
+* https://latex.codecogs.com on line service for `Save as markdown` (export to GFM)
 
 Expression within \$...\$ will be rendered inline.
 
@@ -21,7 +21,7 @@ $$tan(\alpha) = \frac {sin(\alpha)} {cos(\alpha)}$$
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/math
 
 
-## Diagrams
+## Diagrams examples
 
 Markdown Preview Enhanced supports rendering `flow charts`, `sequence diagrams`, `mermaid`, `PlantUML`, `WaveDrom`, `GraphViz`, `Vega` & `Vega-lite`, `Ditaa diagrams`.
 
@@ -60,13 +60,15 @@ deactivate A
 ```
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams
 
-## Export in GitHub Flavor Markdown (GFM)
+## About `Save as markdown` (export to GFM)
 
-Markdown Preview Enhanced supports compilation into GitHub Flavored Markdown so that the exported markdown file will include all graphs (as png images), code chunks (hide and only include results), math typesettings (show as image) etc and can be published on GitHub.
+Markdown Preview Enhanced supports compilation into GitHub Flavored Markdown so that the exported markdown file will include all graphs (as PNG images), code chunks (hide and only include results), math expressions (show as images) etc and can be published on GitHub.
 See https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown
 
 Open the MPE preview: Commande Palette (<kbd>Ctrl-Shift-P</kbd>) > Markdown Preview Enhanced: Open Preview (<kbd>Ctrl + K V</kbd>). Then, on the preview, <kbd>right-click</kbd>, `Save as markdown`
 
-Notes: 
-- Math expressions are rendered as GIF images using the latex.codecogs.com online service, like this: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`
-- Diagrams are saved as png images to `imageFolderPath` (defaults to `/assets`). The exported image filename can be controlled by declaring {filename="your_file_name.png"}.
+__Notes__ :
+
+- By default, math expressions are rendered as GIF images, using the latex.codecogs.com online service, like this: `<img src="https://latex.codecogs.com/gif.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>`. The images quality is not optimal and they don't scale up.
+  But, since MPE v0.3.13, images format can be configured in settings : `File` > `Preferences` > `Settings` > `Extensions` > `Markdown Preview Enhanced` > `Math Rendering Online Service`. Consider using SVG (`https://latex.codecogs.com/svg.latex`) to have a better image quality that scale up.
+- Diagrams are saved as PNG images to `imageFolderPath` (defaults to `/assets`). The exported image filename can be controlled by declaring {filename="your_file_name.png"}.

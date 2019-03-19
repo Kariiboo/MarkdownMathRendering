@@ -9,8 +9,12 @@ Math expressions have to be rendered as images before being included in GitHub m
 
 The `MPE_example.md` page has been saved as markdown [here](MPE_example_.md)
 
-* Pro: Math + diagrams + code chunk support.
-* Cons: Math expression rendering is of poor quality once saved as markdown (due to the use of GIF images https://latex.codecogs.com/gif.latex?...). [Issue opened](https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/189).
+* **Pro** : Math + diagrams + code chunk support.
+* **Cons**: 
+  * Math expression rendering 
+    * ~~poor quality once saved as markdown (due to the use of GIF images https://latex.codecogs.com/gif.latex?...). [Issue opened](https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/189).~~
+    * Use only online service, cannot be generated in the imageDir like PlantUML diagrams.
+  * PlantUML diagrams, exported in PNG, don't scale well.
 
 ## Online rendering solution
 
@@ -20,8 +24,8 @@ It supports TeX rendering only. No diagrams. It can be used easily when editing 
 TeXify GitHub App is installed on this GitHub repository.
 The `TeXify_example.tex.md` page in this repository is then automatically processed on git pushes to generate [this page](TeXify_example.md)
 
-* Pro: Math expression rendering is of good quality.
-* Cons: Only Math support, no diagram, no code chunk support.
+* **Pro**: Good quality of math expression rendering.
+* **Cons**: Only Math support, no diagrams, no code chunk.
 
 ## Bibliography
 
