@@ -12,8 +12,8 @@ Markdown Preview Enhanced render math expressions using :
   
 Expression within \$...\$ will be rendered inline.
   
-* <img src="https://latex.codecogs.com/svg.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201"/>
-* <img src="https://latex.codecogs.com/svg.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}"/>
+* <img src="https://latex.codecogs.com/svg.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201" style="vertical-align: middle;"/>
+* <img src="https://latex.codecogs.com/svg.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}" style="vertical-align: middle;"/>
   
 Expression within \$\$...\$\$ will be rendered in blocks.
   
