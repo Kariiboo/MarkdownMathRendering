@@ -1,6 +1,7 @@
 # Markdown Preview Enhanced example
   
-  
+@import "style.css"
+
 [Visual Studio Code](https://code.visualstudio.com ) (and [Atom](https://atom.io )) have a [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced ) (MPE) extension that allows to render math expressions & diagrams (UML, ...) inside the IDE and to export as GitHub Flavor Markdown (GFM).
   
 ## Math examples
@@ -13,7 +14,7 @@ Markdown Preview Enhanced render math expressions using :
 Expression within \$...\$ will be rendered inline.
   
 * <img src="https://latex.codecogs.com/svg.latex?cos^2(&#x5C;alpha)%20+%20sin^2(&#x5C;alpha)%20=%201" style="vertical-align: middle;"/>
-* <img src="https://latex.codecogs.com/svg.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}" style="vertical-align: middle;"/>
+* <img src="https://latex.codecogs.com/svg.latex?tan(&#x5C;alpha)%20=%20&#x5C;frac%20{sin(&#x5C;alpha)}%20{cos(&#x5C;alpha)}" class="verticalCenter"/>
   
 Expression within \$\$...\$\$ will be rendered in blocks.
   
